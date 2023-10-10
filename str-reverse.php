@@ -16,7 +16,7 @@ function stringReverse($inputString)
     $storeString = '';
     $stringLength = strlen($inputString);
     for ($i = $stringLength; $i >= 0; $i--) {
-        $storeString = $storeString . '' . $inputString[$i - 1];
+        $storeString .= $inputString[$i - 1];
     }
 
     return $storeString;
