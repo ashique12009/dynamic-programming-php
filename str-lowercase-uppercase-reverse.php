@@ -15,7 +15,7 @@ for ($index = 0; $index < strlen($given_string); $index++) {
     }
 }
 
-echo $output_string;
+echo $output_string; // OUTPUT = wORLD is a GREAT PLAcE
 
 /**
  * Check incoming input character is in uppercase or lowercase
